@@ -1,4 +1,6 @@
 import discord
+
+from config import TOKEN
 from discord.ext import commands
 
 intents = discord.Intents.default()
@@ -8,8 +10,6 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix = '!', intents=intents)
 
-TOKEN = 'MTI1MjY4NjE1MDk4MDYwMzk5NA.GImu0e.Ha1l9Vgc2kjKXQA5rmyS3d0JIVFefHh6hJheDc'
-
 @bot.event
 async def if_ready():
     print("Bot is ready to use")
@@ -17,6 +17,6 @@ async def if_ready():
 
 @bot.command()
 async def hello(ctx):
-    await ctx.send("Bitch!")
+    await ctx.send("Hello!")
 
 bot.run(TOKEN)
