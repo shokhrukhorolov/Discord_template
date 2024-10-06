@@ -1,5 +1,5 @@
 # Discord_template
-Pre-Written Python code for Discord
+Pre-Written Python code for Discord - Also change the TOKEN, to the one of yours since invalid TOKEN was placed there.
 
 
 All technologies used: 
