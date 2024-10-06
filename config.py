@@ -4,4 +4,4 @@
 # client_id = ""
 #
 
-TOKEN = 'Your TOKEN'
+TOKEN = ''
